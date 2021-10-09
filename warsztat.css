@@ -1,0 +1,113 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body { 
+    height: 2000px;
+    display: flex;
+    flex-direction: column;
+}
+
+/* page header  */
+header {
+    position: absolute;
+    height: 600px;
+    width: 100%;
+    /* background-color: rgb(53, 50, 50); */
+    background-image: url(https://cdn.pixabay.com/photo/2014/06/04/16/36/man-362150_960_720.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    filter: brightness(75%);
+    /* z-index: -1; */
+}
+
+/* title */
+header div p, h1, h2 {
+    position: relative;
+    text-align: right;
+    margin-right: 80px;
+    margin-top: 50px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: rgba(165, 145, 145, 0.712);
+    color: white;
+    /* z-index: -1; */
+}
+
+header div p {
+    background-color: black;
+    font-style: normal;
+    font-weight: 10px;
+    font-size: 100px;
+    letter-spacing: 4px; 
+    margin-left: 1000px;
+}
+
+header div h1 {
+    color: rgb(8, 1, 1);
+    font-size: 50px;
+    margin-top: 150px;
+}
+
+header div h2 {
+    font-size: 30px;
+    font-style: oblique;
+    bottom: -140px;
+}
+
+header div button {
+    position: relative;
+    font-family: Helvetica, sans-serif;
+    margin-left: 200px;
+    margin-top: 5px;
+    text-transform: uppercase;
+    background-color: rgba(194, 191, 191);
+    border: 3px solid rgba(107, 105, 105, 0.623);
+    box-shadow: 20px 20px 15px 5px black;
+    filter: drop-shadow(2px 5px 2x 2px);
+    text-align: center;
+    font-weight: bold;
+    font-size: 28px;
+    letter-spacing: 4px;
+    word-spacing: 4px;
+    height: 80px;
+    width: 240px;
+    transition: linear 0.2s;
+
+}
+
+button:hover {
+    cursor: pointer;
+    font-size: 35px;
+    }
+
+
+
+/* list of what is on the page */
+.list {
+    position: relative;
+    top: 600px;
+    width: 100%;
+    height: 80px;
+    background-color: rgba(31, 27, 27, 0.575);
+}
+
+.list ul {
+    list-style: none;
+    font-size: 40px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+.list ul li {
+    line-height: 190%;
+    width: 10%;
+}
+
+.list ul li a {
+    color: white;
+    text-decoration: none;
+    text-transform: uppercase;
+}
