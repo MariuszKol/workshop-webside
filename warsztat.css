@@ -123,17 +123,41 @@ section.about {
 }
 
 .information {
+    display: flex;
+    flex-direction: row;
     position: absolute;
     /* top: 0px; */
-    height: 200px;
+    height: 600px;
     width: 100%;
-    /* background-color: aqua; */
+    background-color: rgba(31, 27, 27, 0.425);
 }
 
-.information article {
+.information h2 {
+    margin-top: 20px;
+    margin-left: 25px;
+    text-align: center;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 60px;
+    color: black;
+}
+
+.text p {
     position: absolute;
-    top: 10px;
-    width: 100%;
+    margin-top: 50px;
+    margin-right: 25px;
+    margin-left: 45px;
+    top: 90px;
+    font-size: 20px;
+    width: 55%;
     height: 100%;
+    text-transform: uppercase;
+    text-align: justify;
+    line-height: 40px;
+}
+
+.information img {
+    margin: 25px 25px 25px 25px;
+    height: 500px;
+    width: 500px;
 }
 
