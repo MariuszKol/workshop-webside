@@ -161,3 +161,53 @@ section.about {
     width: 500px;
 }
 
+.workofert {
+    position: absolute;
+    background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTEROvmFsWcwKc6Ljw3cNWgHPXsLEnEkH9YUg&usqp=CAU);
+    background-repeat: no-repeat;
+    background-position: 50px 300px;
+    background-size: 450px;
+    background-color: rgba(31, 27, 27, 0.425);
+    top: 600px;
+    height: 1800px;
+    width: 100%;
+}
+
+.workofert h2 {
+    margin-top: 20px;
+    margin-left: -325px;
+    text-align: center;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 60px;
+    color: black;
+}
+
+.workofert p {
+    position: absolute;
+    margin-top: 50px;
+    margin-right: 25px;
+    margin-left: 45px;
+    top: 90px;
+    font-size: 20px;
+    width: 80%;
+    height: 100%;
+    text-transform: uppercase;
+    text-align: justify;
+    line-height: 40px;
+}
+
+.ofertlist {
+   margin-top: 12%;  
+   font-size: 20px;
+   text-transform: uppercase;
+   text-align: justify;
+   line-height: 40px; 
+   margin-left: 580px;
+}
+
+.ofertlist li a {
+    text-decoration: none;
+    color: black;
+}
+
+
