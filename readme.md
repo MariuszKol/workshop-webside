@@ -28,3 +28,4 @@ In future I would like to oscilate buttons, finish every section in css and do (
 + html 
 + css 
 + readme
++ img
