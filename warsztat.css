@@ -233,11 +233,20 @@ section.about {
     flex-wrap: wrap;
     justify-content: space-around;
     position: absolute;
+    line-height: 50px;
 }
 
 .photo a {
     overflow: hidden;
     flex-basis: 10;
+}
+
+.photo a:nth-child(6) {
+    margin-left: -60px;
+}
+
+.photo a:nth-child(8) {
+    margin-right: -80px;
 }
 
 
