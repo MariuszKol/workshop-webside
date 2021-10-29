@@ -7,6 +7,7 @@ body {
     height: 2000px;
     display: flex;
     flex-direction: column;
+    
 }
 
 /* page header  */
@@ -249,5 +250,20 @@ section.about {
     margin-right: -80px;
 }
 
+.contact {
+    position: absolute;
+    top: 2000px;
+    height: 900px;
+    width: 100%;
+    
+}
 
+.title2 h2 {
+    margin-top: 20px;
+    margin-left: -325px;
+    text-align: center;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 60px;
+    color: black;
+}
 
