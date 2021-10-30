@@ -134,7 +134,7 @@ section.about {
 }
 
 .information h2 {
-    margin-top: 20px;
+    margin-top: 50px;
     margin-left: 25px;
     text-align: center;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
@@ -170,7 +170,7 @@ section.about {
     background-size: 450px;
     background-color: rgba(31, 27, 27, 0.425);
     top: 600px;
-    height: 1800px;
+    height: 1400px;
     width: 100%;
 }
 
@@ -255,15 +255,34 @@ section.about {
     top: 2000px;
     height: 900px;
     width: 100%;
-    
+    background-color: rgba(31, 27, 27, 0.425);
 }
 
 .title2 h2 {
     margin-top: 20px;
     margin-left: -325px;
+    padding-bottom: 45px;
     text-align: center;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     font-size: 60px;
     color: black;
 }
 
+.first {
+    display: flex;
+}
+
+.textContact {
+    position: absolute;
+    margin-top: 50px;
+    margin-right: 25px;
+    margin-left: 45px;
+    top: 90px;
+    font-size: 20px;
+    width: 55%;
+    height: 100%;
+    text-transform: uppercase;
+    text-align: justify;
+    line-height: 40px;
+    word-spacing: 15px;
+}
