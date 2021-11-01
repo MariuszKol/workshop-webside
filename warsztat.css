@@ -8,6 +8,7 @@ body {
     display: flex;
     flex-direction: column;
     
+    
 }
 
 /* page header  */
@@ -252,6 +253,7 @@ section.about {
 
 .contact {
     position: absolute;
+    overflow: hidden;
     top: 2000px;
     height: 900px;
     width: 100%;
@@ -285,4 +287,35 @@ section.about {
     text-align: justify;
     line-height: 40px;
     word-spacing: 15px;
+}
+
+.graphic {
+    position: absolute;
+    /* right: 260px; */
+    animation: showFoto linear 15s infinite;
+}
+
+@keyframes showFoto {
+    0% {
+        right: -600px;
+        opacity: 0;
+    }
+    30% {
+        right: 70px;
+        opacity: 0,5;
+    }
+    50% {
+        right: 130px;
+        opacity: 1;
+    }
+    70% {
+        right: 190px;
+        opacity: 0.5;
+    }
+    100% {
+        right: 260px;
+        opacity: 0;
+    }
+
+
 }
